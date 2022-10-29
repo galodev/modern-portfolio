@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Document</title>
+    <title>Galov Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
      <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
         <style>
             @font-face {
             font-family: GraphikLight;
@@ -48,15 +50,15 @@
                 <div class="nav-container">
 
                         <div class="nav-logo">
-                            <i id="bracket-logo" class="fa-solid fa-code fa-2x"></i>
+                            <a href="index.html"><i id="bracket-logo" class="fa-solid fa-code fa-2x"></i></a>
                         </div>
 
                         <div class="nav-links">
                             <ul>
-                                <li><a class="nav-btn">Home</a></li>
-                                <li><a class="nav-btn">About</a></li>
-                                <li><a class="nav-btn">Projects</a></li>
-                                <li><a class="nav-btn" id="contact-nav-btn">Contact</a></li>
+                                <li><a href="index.html" class="nav-btn">Home</a></li>
+                                <li><a href="#aboutsection" class="nav-btn">About</a></li>
+                                <li><a href="#projectssection" class="nav-btn">Projects</a></li>
+                                <li><a href="#contactsection" class="nav-btn" id="contact-nav-btn">Contact</a></li>
                             </ul>
                         </div>                    
                 </div>
@@ -92,7 +94,7 @@
 
         </main>
 
-        <section class="about-section">
+        <section id="aboutsection" class="about-section" >
 
             <h2 class="section-title">About</h2>
 
@@ -115,7 +117,7 @@
 
         </section>
 
-        <section class="projects-section">
+        <section id="projectssection" class="projects-section">
 
             <h2 class="section-title">Projects</h2>
 
@@ -149,8 +151,8 @@
 
                 </div>
                 <div class="project-article">
-                    <p class="project-title">Portfolio</p>
-                    <p class="project-description">Here goes the description of the project, what Im able to do and what I did in that ocasion, explain that clearly</p>
+                    <p class="project-title">My Behance</p>
+                    <p class="project-description">Some UI/UX designs I've done along the way</p>
                     <span class="fa-stack fa-3x">
                         <i class="fa-solid fa-circle fa-stack-2x" id="project-icon-bg"></i>
                         <i class="fa-solid fa-palette fa-stack-1x fa-inverse" id="project-icon"></i>
@@ -161,7 +163,9 @@
 
         </section>
 
-        <section class="contact-container">
+        <section id="contactsection" class="contact-container">
+
+            <form action="https://formsubmit.co/e496279a09a03efe472f42262d6fa3a9" method="POST">
 
             <div class="contact-info-container">
             <h2 class="contact-title">Let's get in touch</h2>
@@ -169,18 +173,24 @@
             </div>
 
             <div class="contact-form">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <button id="send-btn">Send</button>
+                <input type="text" placeholder="Name" id="name" name="name" required>
+                <input type="text" placeholder="Email" id="email" name="email" required>
+                <textarea placeholder="Message" id="message" name="message" rows="5" required ></textarea>
+                <button type="submit" id="send-btn">Send</button>
             </div>
+
+            <input type="hidden" name="_next" value="https://galov.dev">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="Message sent successfully!">
+
+            </form>
 
         </section>
 
         <footer class="footer-container">
 
             <div class="footer-logo-container">
-                <i id="bracket-logo-footer" class="fa-solid fa-code fa-2x"></i>
+                <a href="index.html"><i id="bracket-logo-footer" class="fa-solid fa-code fa-2x"></i></a>
             </div>
 
             <div class="footer-links">
@@ -199,6 +209,29 @@
             </div>
 
         </footer>
+
+        <div class="modal">
+    
+           
+            <div class="container">
+
+                <div id="typed-strings">
+                <p>Hi!</p>
+                <p>Welcome<strong></strong></p>
+                <p>Please type your first name for a personalized experience</p>
+                </div>
+                <span id="typed"></span>
+    
+          </div>
+
+            <script>
+                var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 40,
+                backSpeed: 0,
+                });
+            </script>
         
     </body>
 </html>
+

@@ -173,14 +173,6 @@ nav ul {
 
 }
 
-/* .main-info p{
-    color: #888888;
-    font-family: GraphikRegular;
-    font-size: 1.4rem;
-    margin: 0px;
-    letter-spacing: 0.02rem
-} */
-
 .section-title {
     color: #1c1c1c;
     font-size: 4rem;
@@ -251,7 +243,7 @@ nav ul {
     background-color: white;
     width: 16%;
     height: 340px;
-    padding: 2.1em 2.1em;
+    padding: 1.8em 2em;
     box-shadow: #dfdfdf 0px 10px 22px;
     display: flex;
     flex-direction: column;
@@ -297,7 +289,7 @@ nav ul {
     color: #f3f7ff;
 }
 
-.contact-container {
+.contact-container form {
     background-color:#f3f7ff;
     height: 300px;
     display: flex;
@@ -392,11 +384,15 @@ nav ul {
     color: #2d6bef
 }
 
-.modal {
-    background-color: red;
+ .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
     position: fixed;
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     border-radius: 0.6em;
     top: 0;
     bottom: 0;
@@ -404,9 +400,47 @@ nav ul {
     right: 0;
     margin: auto;
     text-align: center;
-    font-size: 100%;
+    font-size: 110%;
+    color: #1c1c1c;
+    letter-spacing: 0.004em;
   }
-  
+
+  .modal-input {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8em;
+  }
+
+  #userName {
+    padding: 0.3em 1em 0.4em 0.6em;
+    font-family: GraphikMedium;
+    letter-spacing: 0.01rem;
+    font-size: 0.9rem;
+    color: #1c1c1c;
+    border: 0.126em solid #1c1c1c;
+    border-radius: 0.3em;
+    margin-right: 0.3em;
+    width: 19%;
+    background-color: white;
+  }
+
+  #submit-name-btn {
+    background-color: white;
+    border: 0.126em solid #2d6bef;
+    color: #2d6bef;
+    font-size: 0.9rem;
+    border-radius: 0.3em;
+    padding: 0.3em 1em 0.4em 1em;
+    font-family: GraphikMedium;
+    letter-spacing: 0.01rem;
+    cursor: pointer;
+  }
+
+  #submit-name-btn:hover {
+    background-color: #2d6bef;
+    color: white;
+  }
+
   .line {
     position: relative;
     top: 8%;
@@ -446,7 +480,8 @@ nav ul {
     width: 0;
     border-right: 0.15em solid white;
   }
-
+  
+/*
   @keyframes typing {
     from {
       width: 0;
@@ -456,6 +491,3 @@ nav ul {
     }
   }
   
-  .about-container { 
-    .sdasd
-  }

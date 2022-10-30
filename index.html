@@ -5,6 +5,8 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     <script src="script.js"></script>
      
         <style>
             @font-face {
@@ -210,17 +212,23 @@
 
         </footer>
 
-        <div class="modal">
-    
+        <div class="modal" id="modal">
            
             <div class="container">
 
                 <div id="typed-strings">
                 <p>Hi!</p>
                 <p>Welcome<strong></strong></p>
-                <p>Please type your first name for a personalized experience</p>
+                <p>Please type your name for a personalized experience</p>
                 </div>
                 <span id="typed"></span>
+
+                <div class="modal-input" id="modal-input">
+                <input type="text" name="userName" id="userName" placeholder="name" required>
+                <button type="submit" id="submit-name-btn">Submit</button>
+                </div>
+
+                
     
           </div>
 

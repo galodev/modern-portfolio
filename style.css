@@ -402,13 +402,13 @@ nav ul {
     text-align: center;
     font-size: 110%;
     color: #1c1c1c;
-    letter-spacing: 0.004em;
+    letter-spacing: 0.006em;
   }
 
   .modal-input {
     display: flex;
     justify-content: center;
-    padding-top: 0.8em;
+    padding-top: 0.6em;
   }
 
   #userName {

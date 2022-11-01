@@ -3,9 +3,7 @@ const submitBtn = document.getElementById("submit-name-btn")
 const consentForm = document.getElementById("consent-form")
 
 
-// What im looking here is to take the value that the user put on name and add to the site, when the user clicks submit the modal will be closed
-
-setTimeout(function(){
+/* setTimeout(function(){
     modalInput.style.display= "flex"
 },9000)
 
@@ -18,7 +16,13 @@ consentForm.addEventListener('submit', function(e){
     ` 
     <h1>Hi ${name}!<br> <span>My name is Galo</span> </h1>
     `
-})
+}) */
+
+
+
+
+
+
 
 /* setTimeout(function(){
     document.getElementById("main-info").innerHTML = 

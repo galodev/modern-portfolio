@@ -81,7 +81,7 @@ nav ul {
 }
 
 .nav-btn{
-    padding: 0.65em 1.15em 0.8em 1.1em;
+    padding: 0.66em 1.15em 0.72em 1.1em;
     cursor: pointer;
     margin: 0em 0.2em;
     letter-spacing: 0.01em;
@@ -102,7 +102,7 @@ nav ul {
     border-radius: 0.3em;
     border: .1em solid #2d6bef;
     text-align: center;
-    padding: 0.6em 1.05em 0.7em 1em;
+    padding: 0.66em 1.05em 0.72em 1em;
 }
 
 #contact-nav-btn:hover:visited {
@@ -152,7 +152,7 @@ nav ul {
     font-family: GraphikRegular;
     font-size: 1.4rem;
     letter-spacing: 0.02rem;   
-    padding-top: 1.02rem;
+    padding-top: 1.06rem;
 }
 
 .wrapper ul {
@@ -445,7 +445,7 @@ nav ul {
   }
 
   #userName {
-    padding: 0.3em 1em 0.4em 0.6em;
+    padding: 0.32em 1em 0.36em 0.6em;
     font-family: GraphikMedium;
     letter-spacing: 0.016rem;
     font-size: 0.9rem;
@@ -463,7 +463,7 @@ nav ul {
     color: #2d6bef;
     font-size: 0.9rem;
     border-radius: 0.3em;
-    padding: 0.3em 1em 0.4em 1em;
+    padding: 0.32em 1em 0.36em 1em;
     font-family: GraphikMedium;
     letter-spacing: 0.01rem;
     cursor: pointer;

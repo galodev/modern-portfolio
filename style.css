@@ -1,3 +1,35 @@
+@font-face {
+font-family: GraphikLight;
+src: url(Graphik-Light-Trial.otf);
+}
+@font-face {
+font-family: GraphikMedium;
+src: url(Graphik-Medium-Trial.otf);
+}
+@font-face {
+font-family: GraphikRegular;
+src: url(Graphik-Regular-Trial.otf);
+}
+@font-face {
+font-family: GraphikSemiBold;
+src: url(Graphik-Semibold-Trial.otf);
+}
+@font-face {
+font-family: GraphikBold;
+src: url(Graphik-Bold-Trial.otf);
+}
+@font-face {
+font-family: GraphikBlack;
+src: url(Graphik-Black-Trial.otf);
+}
+@font-face {
+font-family: NanumPet;
+src: url(NanumPenScript-Regular.ttf);
+}
+@font-face {
+font-family: MontserratBold;
+src: url(Montserrat-Bold.otf);
+}
 
 html {
     margin: 0px;
@@ -54,6 +86,7 @@ nav ul {
     margin: 0em 0.2em;
     letter-spacing: 0.01em;
     text-decoration: none;
+    color: #1c1c1c;
 }
 
 .nav-btn:hover {
@@ -94,7 +127,7 @@ nav ul {
     width: 650px;
 }
 
-.main-info h1 .modal-display-name{
+.main-info h1, .main-info span{
     color: #1c1c1c;
     font-size: 4rem;
     margin: 0em;
@@ -119,7 +152,7 @@ nav ul {
     font-family: GraphikRegular;
     font-size: 1.4rem;
     letter-spacing: 0.02rem;   
-    padding-top: 1rem;
+    padding-top: 1.02rem;
 }
 
 .wrapper ul {
@@ -406,7 +439,7 @@ nav ul {
   }
 
   .modal-input {
-    display: flex;
+    display: none;
     justify-content: center;
     padding-top: 0.6em;
   }

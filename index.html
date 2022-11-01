@@ -6,9 +6,9 @@
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-     <script src="script.js"></script>
+     <script src="script.js" defer></script>
      
-        <style>
+    <style>
             @font-face {
             font-family: GraphikLight;
             src: url(Graphik-Light-Trial.otf);
@@ -41,7 +41,7 @@
             font-family: MontserratBold;
             src: url(Montserrat-Bold.otf);
             }
-        </style>
+    </style>
 </head> 
 
     <body>
@@ -72,8 +72,8 @@
 
             <div class="main-info-container">
 
-`               <div class="main-info">
-                    <h1>Hi! <br> <span>My name is Galo</span> </h1>
+               <div id="main-info" class="main-info">
+                    <h1>Hi! <span class="modal-display-name">NAME</span> <br> <span>My name is Galo</span> </h1>
                 </div> 
 
                 <div class="wrapper">

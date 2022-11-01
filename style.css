@@ -94,7 +94,7 @@ nav ul {
     width: 650px;
 }
 
-.main-info h1{
+.main-info h1 .modal-display-name{
     color: #1c1c1c;
     font-size: 4rem;
     margin: 0em;
@@ -414,7 +414,7 @@ nav ul {
   #userName {
     padding: 0.3em 1em 0.4em 0.6em;
     font-family: GraphikMedium;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.016rem;
     font-size: 0.9rem;
     color: #1c1c1c;
     border: 0.126em solid #1c1c1c;

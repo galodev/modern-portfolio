@@ -269,7 +269,7 @@ nav ul {
 .projects-container {
     display: flex;
     justify-content: space-between;
-    margin: 8em 5em 14em 5em;
+    margin: 7em 5em 14em 4em;
 }
 
 .project-article {

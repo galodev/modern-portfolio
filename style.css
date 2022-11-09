@@ -289,7 +289,8 @@ nav ul {
     font-size: 1.4rem;
     cursor: pointer;
     padding: 0px;
-    margin: 0.5em 0.5em
+    margin: 0.5em 0.5em;
+    text-decoration: none;
 }
 
 .project-title:hover{

@@ -5,7 +5,7 @@ const consentForm = document.getElementById("consent-form")
 
 setTimeout(function(){
     modalInput.style.display= "flex"
-},8000)
+},7400)
 
 consentForm.addEventListener('submit', function(e){
     e.preventDefault()

@@ -446,7 +446,7 @@ nav ul {
   }
 
   #userName {
-    padding: 0.4em 1em 0.4em 0.6em;
+    padding: 0.36em 1em 0.4em 0.6em;
     font-family: GraphikMedium;
     letter-spacing: 0.016rem;
     font-size: 0.9rem;
@@ -464,7 +464,7 @@ nav ul {
     color: #2d6bef;
     font-size: 0.9rem;
     border-radius: 0.3em;
-    padding: 0.4em 1em 0.4em 1em;
+    padding: 0.36em 1em 0.4em 1em;
     font-family: GraphikMedium;
     letter-spacing: 0.01rem;
     cursor: pointer;
@@ -525,6 +525,3 @@ nav ul {
     }
   }
 
-
-  /*dsgfdsggsddsgdsg{
-    ghfghf

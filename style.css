@@ -36,11 +36,20 @@ html {
     padding: 0px;
 }
 
+.nav-container {
+    width: 100%;
+    max-width: 1360px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
     color: white;
     font-family: GraphikMedium;
+}
+
+main {
+    width: 100%;
 }
 
 .nav-container{
@@ -81,7 +90,7 @@ nav ul {
 }
 
 .nav-btn{
-    padding: 0.68em 1.15em 0.68em 1.1em;
+    padding: 0.68em 1.1em 0.68em 1.1em;
     cursor: pointer;
     margin: 0em 0.2em;
     letter-spacing: 0.01em;
@@ -323,6 +332,10 @@ nav ul {
     color: #f3f7ff;
 }
 
+.contact-container{
+    width: 100%;
+}
+
 .contact-container form {
     background-color:#f3f7ff;
     height: 300px;
@@ -385,6 +398,7 @@ nav ul {
 }
 
 .footer-container {
+    width: 100%;
     background-color: #2d6bef;
     margin: 0px;
     padding: 1.6em 5em;
@@ -395,7 +409,7 @@ nav ul {
 
 .footer-logo-container{
     display: flex;
-    justify-items: space-arround;
+    justify-content: space-around;
     align-items: center;
     width: 10%;
 }
@@ -446,7 +460,7 @@ nav ul {
   }
 
   #userName {
-    padding: 0.36em 1em 0.4em 0.6em;
+    padding: 0.36em 1em 0.4em 1em;
     font-family: GraphikMedium;
     letter-spacing: 0.016rem;
     font-size: 0.9rem;

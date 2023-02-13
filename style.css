@@ -241,58 +241,13 @@ main {
     margin-left: 0.48em;
 }
 
-.static-txt, .dynamic-txt span {
+.static-text, .dynamic-txt span {
     color: #888888;
     font-family: GraphikRegular;
     font-size: 1.4rem;
     letter-spacing: 0.02rem;   
 }
 
-.wrapper {
-    display: inline-flex;
-}
-
-.dynamic-txt li {
-    list-style: none;
-    font-size: 1.4rem;
-    position: relative;
-    top: 0;
-    animation: slide 10s steps(5) infinite;
-}
-
-@keyframes slide {
-    100% {
-        top: -112px;
-    }
-} 
-
-.wrapper, .dynamic-txt{
-    height: 1.4rem;
-    line-height: 1.4rem;
-    overflow: hidden;
-}
-
-.dynamic-txt li span { 
-    position: relative;
-}
-
-.dynamic-txt li span::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #ffffff;
-    border-left: 2.2px solid #888888;
-    animation: typing 2s steps(9) infinite;
-}
-
-@keyframes typing {
-    100% {
-        left: 86%;
-        margin: 0 -35px 0 35px;
-    }
-} 
 
 @media (max-width:800px) {
     .section-title {
@@ -326,8 +281,7 @@ main {
 
 .about-img {
     display: flex;
-    align-content: center;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 2.4em 0em;
 }
 
@@ -407,7 +361,7 @@ main {
     max-width: 1400px;
     margin: 6em auto 10em auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 1.6em;
 } 
 
@@ -420,7 +374,12 @@ main {
     align-content: center;
     justify-content: space-between;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.project-article:hover {
+    transform: scale(1.06);
+  }
 
 .project-title {
     color: #1c1c1c;

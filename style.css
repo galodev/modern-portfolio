@@ -22,10 +22,7 @@
     font-family: GraphikBlack;
     src: url(Graphik-Black-Trial.otf);
     }
-    @font-face {
-    font-family: NanumPet;
-    src: url(NanumPenScript-Regular.ttf);
-    }
+
     @font-face {
     font-family: MontserratBold;
     src: url(Montserrat-Bold.otf);

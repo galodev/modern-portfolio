@@ -244,7 +244,6 @@ main {
     letter-spacing: 0.02rem;   
 }
 
-
 @media (max-width:800px) {
     .section-title {
         width: 100%;
